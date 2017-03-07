@@ -38,6 +38,8 @@
   	* PGP/GPG
   	* Hashes
   * 2 Factor Authentication
+    * Something you have - Yubikey, Time-based Factors, Text message to your phone, etc.
+    * Something you are - biometric data
   * Password managers
   * TOR
     * Talk about FBI's classified compromise of TOR
@@ -53,7 +55,7 @@
   * File Sharing - [Onion Share](https://onionshare.org/)
   * 2FA - [Authy](https://www.authy.com/)
   * 2FA - [twofactorauth.org](https://twofactorauth.org/)
-  * [LastPass](https://www.lastpass.com)
+  * 2FA - [LastPass](https://www.lastpass.com)
   * Messaging - [WhatsApp](https://www.whatsapp.com/)
   * Messaging (better) - [Signal](https://whispersystems.org/)
   * Email - [ProtonMail](https://protonmail.com/)
