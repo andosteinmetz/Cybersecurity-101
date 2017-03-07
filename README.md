@@ -41,6 +41,7 @@
   * Password managers
   * TOR
     * Talk about FBI's classified compromise of TOR
+    * http://boingboing.net/2016/07/01/researchers-find-over-100-spyi.html
   * Dead drops
   * HTTPS
   * VPNs
@@ -73,7 +74,7 @@
   * [https://github.com/drduh/macOS-Security-and-Privacy-Guide](https://github.com/drduh/macOS-Security-and-Privacy-Guide)
   * [Schneier on Security](https://www.schneier.com/)
 
-6. Uncategorized links
+6. Uncategorized
   * [Keybase](https://keybase.io/)
   * [How to Set Up SSH Keys](https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys--2)
   * [Password tips from The Intercept](https://theintercept.com/2015/03/26/passphrases-can-memorize-attackers-cant-guess/)
@@ -81,6 +82,6 @@
   * [Riseup](https://riseup.net/)
   * [EFF Security Starter Pack](https://ssd.eff.org/en/playlist/want-security-starter-pack)
   * [John Gilmore](http://www.toad.com/)
-
-
+  * NSA malware names: POLARSNEEZE, ELIGIBLE BOMBSHELL, FOXACID, BADDECISION, MAGIC SQUIRREL, MAGICBEAN
+  * [NSA Google Tips](https://www.wired.com/2013/05/nsa-manual-on-hacking-internet/)
 
