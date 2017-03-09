@@ -1,6 +1,6 @@
 # Cybersecurity 101
 
-0. Core concepts
+## Core Concepts
   * Trust
   * Secrets
   * Anonymity
@@ -11,30 +11,30 @@
   * Threat model
   * There's no such thing as perfect security (the most secure email privacy is called PGP, or "Pretty Good Privacy")
 
-1. History
-  * Stuxnet
-  * AshleyMadison
-  * Cloudflare
+## History
   * [The Thing](https://en.wikipedia.org/wiki/The_Thing_(listening_device))
   * Farraday Cube
-  * SHA1 Hash Collision 
   * Charges brought against inventor of PGP
-  * Heartbleed
-  * [Dyn IoT DDoS attack](http://www.welivesecurity.com/2016/10/24/10-things-know-october-21-iot-ddos-attacks/)
-    * Explain DDoS
-    * Discuss security vulnerabilities of "smart devices" 
-  * [Spammergate](https://mackeeper.com/blog/post/339-spammergate-the-fall-of-an-empire)
-  	* [Slowloris](https://en.wikipedia.org/wiki/Slowloris_(computer_security)
-
-1.5
+  
+## CurrentEvents
   * [Wikileaks CIA Spy tools disclosures](https://wikileaks.org/ciav7p1/)
     * Put tape over your webcam
     * Don't buy a "smart" TV
     * Q: Does this mean that the CIA has compromised Signal and WhatsApp?
     * A: No. If you put a lock on your door, but the burglar was already in your house, your lock's not been broken, but your house may be robbed.
+  * [Spammergate](https://mackeeper.com/blog/post/339-spammergate-the-fall-of-an-empire)
+  * [Slowloris](https://en.wikipedia.org/wiki/Slowloris_(computer_security)
+  * Heartbleed
+  * SHA1 Hash Collision 
+  * [Dyn IoT DDoS attack](http://www.welivesecurity.com/2016/10/24/10-things-know-october-21-iot-ddos-attacks/)
+    * Explain DDoS
+    * Discuss security vulnerabilities of "smart devices"
+  * AshleyMadison
+  * Cloudbleed 
 
-2. Vulnerabilities
+## Vulnerabilities
   * Viruses, worms and malware
+  	* Stuxnet
   * Backdoors
   * Spoofing
   * Phishing
@@ -45,7 +45,7 @@
   * Somebody has your computer
   * ISPs, Social Networks, Web Services
 
-3. Techniques & Technologies
+## Techniques & Technologies
   * Obscurity - communicate over a connection that is unknown
   * Encryption
     * "End to End"
@@ -66,7 +66,7 @@
   * Farraday Cube
   * Update Your Software
 
-4. Tools
+## Tools
   * Browsing - [TOR Browser](https://www.torproject.org/projects/torbrowser.html.en)
   * File Sharing - [Onion Share](https://onionshare.org/)
   * 2FA - [Authy](https://www.authy.com/)
@@ -89,11 +89,11 @@
   * [MalwareBytes](https://www.malwarebytes.com/)
   * [Pastebin](http://pastebin.com/)
 
-5. Further Info / Deep Dive
+## Further Info / Deep Dive
   * [https://github.com/drduh/macOS-Security-and-Privacy-Guide](https://github.com/drduh/macOS-Security-and-Privacy-Guide)
   * [Schneier on Security](https://www.schneier.com/)
 
-6. Uncategorized
+## Uncategorized
   * [Keybase](https://keybase.io/)
   * [How to Set Up SSH Keys](https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys--2)
   * [Password tips from The Intercept](https://theintercept.com/2015/03/26/passphrases-can-memorize-attackers-cant-guess/)
