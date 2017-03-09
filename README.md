@@ -20,6 +20,16 @@
   * SHA1 Hash Collision 
   * Charges brought against inventor of PGP
   * Heartbleed
+  * [Dyn IoT DDoS attack](http://www.welivesecurity.com/2016/10/24/10-things-know-october-21-iot-ddos-attacks/)
+    * Explain DDoS
+    * Discuss security vulnerabilities of "smart devices" 
+
+1.5
+  * [Wikileaks CIA Spy tools disclosures](https://wikileaks.org/ciav7p1/)
+    * Put tape over your webcam
+    * Don't buy a "smart" TV
+    * Q: Does this mean that the CIA has compromised Signal and WhatsApp?
+    * A: No. If you put a lock on your door, but the burglar was already in your house, your lock's not been broken, but your house may be robbed.
 
 2. Vulnerabilities
   * Viruses, worms and malware
