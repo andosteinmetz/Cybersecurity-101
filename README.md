@@ -3,6 +3,7 @@
 0. Core concepts
   * Trust
   * Secrets
+  * Anonymity
   * Authentication
   * Encryption
     * Symmetric/Asymmetric
@@ -18,6 +19,7 @@
   * Farraday Cube
   * SHA1 Hash Collision 
   * Charges brought against inventor of PGP
+  * Heartbleed
 
 2. Vulnerabilities
   * Viruses, worms and malware
@@ -43,7 +45,7 @@
   * Password managers
   * TOR
     * Talk about FBI's classified compromise of TOR
-    * http://boingboing.net/2016/07/01/researchers-find-over-100-spyi.html
+    * [http://boingboing.net/2016/07/01/researchers-find-over-100-spyi.html](http://boingboing.net/2016/07/01/researchers-find-over-100-spyi.html)
   * Dead drops
   * HTTPS
   * VPNs
