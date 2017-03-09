@@ -23,6 +23,8 @@
   * [Dyn IoT DDoS attack](http://www.welivesecurity.com/2016/10/24/10-things-know-october-21-iot-ddos-attacks/)
     * Explain DDoS
     * Discuss security vulnerabilities of "smart devices" 
+  * [Spammergate](https://mackeeper.com/blog/post/339-spammergate-the-fall-of-an-empire)
+  	* [Slowloris](https://en.wikipedia.org/wiki/Slowloris_(computer_security)
 
 1.5
   * [Wikileaks CIA Spy tools disclosures](https://wikileaks.org/ciav7p1/)
@@ -49,6 +51,8 @@
     * "End to End"
   	* PGP/GPG
   	* Hashes
+  	* Modular arithmetic, 1-way function
+  	* 
   * 2 Factor Authentication
     * Something you have - Yubikey, Time-based Factors, Text message to your phone, etc.
     * Something you are - biometric data
@@ -83,6 +87,7 @@
   * [Firefox Private Browsing](https://support.mozilla.org/t5/Protect-your-privacy/Private-Browsing-Use-Firefox-without-saving-history/ta-p/4473)
   * [Let's Encrypt](https://letsencrypt.org/)
   * [MalwareBytes](https://www.malwarebytes.com/)
+  * [Pastebin](http://pastebin.com/)
 
 5. Further Info / Deep Dive
   * [https://github.com/drduh/macOS-Security-and-Privacy-Guide](https://github.com/drduh/macOS-Security-and-Privacy-Guide)
