@@ -23,7 +23,7 @@
     * Q: Does this mean that the CIA has compromised Signal and WhatsApp?
     * A: No. If you put a lock on your door, but the burglar was already in your house, your lock's not been broken, but your house may be robbed.
   * [Spammergate](https://mackeeper.com/blog/post/339-spammergate-the-fall-of-an-empire)
-  * [Slowloris](https://en.wikipedia.org/wiki/Slowloris_(computer_security)
+  	* [Slowloris](https://en.wikipedia.org/wiki/Slowloris_(computer_security))
   * Heartbleed
   * SHA1 Hash Collision 
   * [Dyn IoT DDoS attack](http://www.welivesecurity.com/2016/10/24/10-things-know-october-21-iot-ddos-attacks/)
