@@ -14,9 +14,7 @@ which leaves many points at which data may be exposed.
 ## What's Cybersecurity?
 
 Wikipedia sez:
-```
-Computer security, also known as cybersecurity or IT security, is the protection of computer systems from the theft or damage to the hardware, software or the information on them, as well as from disruption or misdirection of the services they provide.
-```
+> Computer security, also known as cybersecurity or IT security, is the protection of computer systems from the theft or damage to the hardware, software or the information on them, as well as from disruption or misdirection of the services they provide.
 
 In practice I'll provisionally say Cybersecurity is the practice of obscuring your data from persons other than yourself and your intended recipient(s). This is to say, keeping your communications private.
 Data can be a message, metadata (ie who is writing whom when), webpage requests, user profiles, passwords, source code, and so on. Everything on a computer is data.
