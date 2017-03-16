@@ -6,8 +6,13 @@
   * Anonymity
   * Authentication
   * Encryption
+  	* Caesar cipher as a simple example
     * Symmetric/Asymmetric
+    	* Symmetric = private key, Asymmetric = public key
+    	* How do you share a secret (encryption key) over the internet securely?
   		* [Visual explanation of Public Key Cryptography](https://www.youtube.com/watch?v=YEBfamv-_do&feature=youtu.be&t=161)
+  			* Hash
+  			* One-way function
   * Threat model
   * There's no such thing as perfect security (the most secure email privacy is called PGP, or "Pretty Good Privacy")
 
@@ -44,6 +49,7 @@
     * Use PIN, not fingerprint
   * Somebody has your computer
   * ISPs, Social Networks, Web Services
+  * Data breaches
 
 ## Techniques & Technologies
   * Obscurity - communicate over a connection that is unknown
@@ -52,7 +58,7 @@
   	* PGP/GPG
   	* Hashes
   	* Modular arithmetic, 1-way function
-  	* 
+  	* SSL/HTTPS
   * 2 Factor Authentication
     * Something you have - Yubikey, Time-based Factors, Text message to your phone, etc.
     * Something you are - biometric data
@@ -88,6 +94,7 @@
   * [Let's Encrypt](https://letsencrypt.org/)
   * [MalwareBytes](https://www.malwarebytes.com/)
   * [Pastebin](http://pastebin.com/)
+  * [HTTPS Everywhere](https://www.eff.org/HTTPS-Everywhere)
 
 ## Further Info / Deep Dive
   * [https://github.com/drduh/macOS-Security-and-Privacy-Guide](https://github.com/drduh/macOS-Security-and-Privacy-Guide)
