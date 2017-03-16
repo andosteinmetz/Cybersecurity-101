@@ -19,12 +19,12 @@
 ## History
   * [The Thing](https://en.wikipedia.org/wiki/The_Thing_(listening_device))
   * Farraday Cube
+  * War Games and Ronald Regan
   * Charges brought against inventor of PGP
   
 ## CurrentEvents
   * [Wikileaks CIA Spy tools disclosures](https://wikileaks.org/ciav7p1/)
     * Put tape over your webcam
-    * Don't buy a "smart" TV
     * Q: Does this mean that the CIA has compromised Signal and WhatsApp?
     * A: No. If you put a lock on your door, but the burglar was already in your house, your lock's not been broken, but your house may be robbed.
   * [Spammergate](https://mackeeper.com/blog/post/339-spammergate-the-fall-of-an-empire)
@@ -50,6 +50,8 @@
   * Somebody has your computer
   * ISPs, Social Networks, Web Services
   * Data breaches
+  	* Password reuse
+  * Bruteforce
 
 ## Techniques & Technologies
   * Obscurity - communicate over a connection that is unknown
