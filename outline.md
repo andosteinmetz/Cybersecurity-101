@@ -5,7 +5,7 @@ The news lately has issued a steady stream of stories about breaches of internet
 * Wikileaks CIA Spy tools disclosures
 * Cloudbleed
 * Dyn IoT DDoS attack
-* [Spammergate](https://mackeeper.com/blog/post/339-spammergate-the-fall-of-an-empire)
+* [Spammergate/River City Media](https://mackeeper.com/blog/post/339-spammergate-the-fall-of-an-empire)
 * [Dyn IoT DDoS attack](http://www.welivesecurity.com/2016/10/24/10-things-know-october-21-iot-ddos-attacks/)
 
 When you're using the internet, your data pass through many computers, which are, in turn, connected to many other computers, and so on,
@@ -73,6 +73,7 @@ But it's not just for ourselves that we want to employ secure communications, bu
 ## What tools can we use to provide greater security?
 
 ###TOR
+
 A good example is TOR. TOR is an anonymizing network that uses relays and cryptography to conceal the identities behind and the contents of communications. When using the internet through the TOR network, your messages are passed from computer to computer within the network, with different parts encrypted at every node until it (potentially) exits the network from an "exit node" to its destination. None of the nodes along the path know where the message originated, its destination, and its contents.
 
 The exit nodes have a special position, because they decrypt your message before passing it on to the "public internet." At this point, unless you're operating over a secure connection (https://), your message is unencrypted at this juncture, and could be intercepted by an exit node. They won't know the traffic's origin, but they will know its destination and its contents unless there's another layer of encryption between.
@@ -89,9 +90,21 @@ Things that operate over TOR:
 * Secure Drop (Aaron Swartz)
 
 ### HTTPS
+
 So what is HTTPS? HTTPS is a layer that sits on top of HTTP. It ensures that the website you're accessing matches the URL that you typed into your browser by means of a [Certificate](https://en.wikipedia.org/wiki/Public_key_certificate), and encrypts all of the data passed between your browser and the website, so that your communications are protected from eavesdroppers.
 
 ### VPN
-VPN stands for "Virtual Private Network." A VPN is a private network (like your home wifi network or an institution's internal network) that connects to the public internet, so the origins of requests made through VPNs aren't visible to the websites or anybody outside of the private network. These are often privately operated for internal use, or paid services, though free options exist.
+
+VPN stands for "Virtual Private Network." A VPN is a private network (like your home wifi network or an institution's internal network) that connects to the public internet, so the origins of requests made through VPNs aren't visible to the websites or anybody outside of the private network, instead seeming to originate from the VPN. VPNs are often privately operated for internal use, or paid services, though free options exist, such as [TunnelBear](https://www.tunnelbear.com/).
+
+### Two Factor Authentication (2FA)
+
+* Something you know: the name of your favorite elementary school teacher, your first pet
+* Something you have: ie a text sent to your phone, an application with a private key on your phone. 
+* Something you are: ie your thumbprint, your retina, voice recognition, other biometric data
+
+### Passwords
+
+
 
 Tim Berners-Lee's recent [projects](https://solid.mit.edu/#home) and [opinions](https://www.theguardian.com/technology/2017/mar/11/tim-berners-lee-web-inventor-save-internet).

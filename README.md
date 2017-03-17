@@ -43,6 +43,8 @@
   * Backdoors
   * Spoofing
   * Phishing
+  * MiTM
+  * Eavesdropping
   * Privilege escalation
   * Legal mechanisms
   * Government Agencies
