@@ -11,6 +11,8 @@ The news lately has issued a steady stream of stories about breaches of internet
 When you're using the internet, your data pass through many computers, which are, in turn, connected to many other computers, and so on,
 which leaves many points at which data may be exposed.
 
+For every security measure that's invented, hackers quickly begin trying to find "exploits", or ways to circumvent those measures.
+
 ## What's Cybersecurity?
 
 Wikipedia sez:
@@ -68,15 +70,28 @@ Even if you feel there's nothing to be ashamed of in your behavior online or whe
 
 But it's not just for ourselves that we want to employ secure communications, but to preserve and democratize the sphere of privacy. The more we all employ secure practices, because the internet is so interconnected, the more secure an internet we make for everybody.
 
-A good example is TOR. TOR is an anonymizing network that uses relays and cryptography to conceal the identities behind and the contents of communications. When using the internet through the TOR network, your messages are passed from computer to computer within the network, encrypted at every node until it exits the network from an "exit node" to its destination. None of the nodes along the path know where the message originated or its contents.
+## What tools can we use to provide greater security?
+
+###TOR
+A good example is TOR. TOR is an anonymizing network that uses relays and cryptography to conceal the identities behind and the contents of communications. When using the internet through the TOR network, your messages are passed from computer to computer within the network, with different parts encrypted at every node until it (potentially) exits the network from an "exit node" to its destination. None of the nodes along the path know where the message originated, its destination, and its contents.
+
+The exit nodes have a special position, because they decrypt your message before passing it on to the "public internet." At this point, unless you're operating over a secure connection (https://), your message is unencrypted at this juncture, and could be intercepted by an exit node. They won't know the traffic's origin, but they will know its destination and its contents unless there's another layer of encryption between.
 
 ![Tor Network Diagram](img/tor-network-diagram.png)
 
+It's also said that TOR traffic receives special attention from the NSA's XKeyscore program. One response to this is to avoid TOR to avoid notice. Another would be to grow the network and provide increased security for everybody.
+
 Things that operate over TOR:
+* Normal web browsing
 * Hidden services (like Silk Road)
 * OnionShare
 * Encrypted chat
 * Secure Drop (Aaron Swartz)
 
+### HTTPS
+So what is HTTPS? HTTPS is a layer that sits on top of HTTP. It ensures that the website you're accessing matches the URL that you typed into your browser by means of a [Certificate](https://en.wikipedia.org/wiki/Public_key_certificate), and encrypts all of the data passed between your browser and the website, so that your communications are protected from eavesdroppers.
+
+### VPN
+VPN stands for "Virtual Private Network." A VPN is a private network (like your home wifi network or an institution's internal network) that connects to the public internet, so the origins of requests made through VPNs aren't visible to the websites or anybody outside of the private network. These are often privately operated for internal use, or paid services, though free options exist.
 
 Tim Berners-Lee's recent [projects](https://solid.mit.edu/#home) and [opinions](https://www.theguardian.com/technology/2017/mar/11/tim-berners-lee-web-inventor-save-internet).
