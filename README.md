@@ -15,12 +15,13 @@
   			* One-way function
   * Threat model
   * There's no such thing as perfect security (the most secure email privacy is called PGP, or "Pretty Good Privacy")
+  * Weakest link
 
 ## History
   * [The Thing](https://en.wikipedia.org/wiki/The_Thing_(listening_device))
   * Farraday Cube
   * War Games and Ronald Regan
-  * Charges brought against inventor of PGP
+  * Charges brought against Phil Zimmerman inventor of PGP
   
 ## CurrentEvents
   * [Wikileaks CIA Spy tools disclosures](https://wikileaks.org/ciav7p1/)
@@ -81,7 +82,7 @@
   * File Sharing - [Onion Share](https://onionshare.org/)
   * 2FA - [Authy](https://www.authy.com/)
   * 2FA - [twofactorauth.org](https://twofactorauth.org/)
-  * 2FA - [LastPass](https://www.lastpass.com)
+  * Password manager - [LastPass](https://www.lastpass.com)
   * Messaging - [WhatsApp](https://www.whatsapp.com/)
   * Messaging (better) - [Signal](https://whispersystems.org/)
   * Email - [ProtonMail](https://protonmail.com/)

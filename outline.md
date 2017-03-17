@@ -100,11 +100,16 @@ VPN stands for "Virtual Private Network." A VPN is a private network (like your 
 ### Two Factor Authentication (2FA)
 
 * Something you know: the name of your favorite elementary school teacher, your first pet
-* Something you have: ie a text sent to your phone, an application with a private key on your phone. 
+* Something you have: ie a text sent to your phone, an application with a private key on your phone, yubikey
 * Something you are: ie your thumbprint, your retina, voice recognition, other biometric data
 
 ### Passwords
 
-
+Choose a secure password. There are differences of opinion over what defines a strong password, and it changes over time. Some suggestions are:
+* Use a passphrase, which may be longer, but easier to remember than a password.
+* Avoid common topologies - such as capitalizing the first letter of your password, and appending numbers to the end.
+* Rotate your passwords
+* Use a password manager - [LastPass](https://www.lastpass.com), [KeePass](https://www.keepassx.org/)(free)
+* Make a [diceware](http://world.std.com/~reinhold/diceware.html) [passphrase](https://theintercept.com/2015/03/26/passphrases-can-memorize-attackers-cant-guess/)
 
 Tim Berners-Lee's recent [projects](https://solid.mit.edu/#home) and [opinions](https://www.theguardian.com/technology/2017/mar/11/tim-berners-lee-web-inventor-save-internet).
