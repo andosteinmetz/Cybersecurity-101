@@ -20,6 +20,7 @@ In practice I'll provisionally say Cybersecurity is the practice of obscuring yo
 Data can be a message, metadata (ie who is writing whom when), webpage requests, user profiles, passwords, source code, and so on. Everything on a computer is data.
 
 ## Questions we might ask
+
 How can we know that a person or 'place' is reliably found at a certain IP address? (SSL Certificates) 
 Do we trust the security practices of the companies who hold our data? (LinkedIn plaintext passwords)
 Do we trust their decision making? 
