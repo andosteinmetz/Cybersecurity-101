@@ -34,12 +34,13 @@ Security researchers and software engineers have designed systems to obscure com
 A central part of this, the "obscuring" part, is cryptography. Cryptography is a means by which to scramble a message in a reversible way, but only by means of a shared secret "key."
 
 The simplest example:
+
 ![Caesar cipher](img/caesar-cipher.png)
 ![Decoder ring](img/decoder-ring.jpeg)
 
 In a simple caesar cipher, the shared secret is the number of ticks to turn the wheel to offset the alphabet.
 
-Modern cryptographic algorithms are many orders of magnitude more complex and difficult to reverse, but follow the same basic principle. They have to be so difficult to reverse that it would take an extremely powerful computer an infeasible amount of time to do it. That's very powerful!
+Modern cryptographic algorithms are many orders of magnitude more complex and difficult to reverse, but follow the same basic principle. They have to be so difficult to reverse that it would take an extremely powerful computer an infeasible amount of time to do it. That's very requires a lot of complexity!
 
 So first, we have to trust our encryption algorithm. There are a number of these kinds of algorithms for a variety of specific purposes. (Google SHA-1 Collision).
 
@@ -48,23 +49,34 @@ This leaves the question of how we securely share our secret key to recover the 
 * We could speak it over the phone, if we trust the phone lines.
 * We could write it in an email if we trust our password is secure and we trust our email provider.
 
-Over the internet, there are so many points of connection that it becomes very hard to trust that all of those points are secure, so transmitting a key for private communication creates a paradox. 
+Over the internet, there are so many points of connection that it becomes very hard to trust that all of those points are secure, so transmitting a key for private communication creates a catch 22. 
 
-Until 1976, encrypted communications could only be as secure as the means of transmitting your secret key. 
+Encrypted communications could only be as secure as the means of transmitting your secret key. 
 
 ![Diffie-Hellman](img/diffie-hellman.jpg)
 
-Whitfield Diffie and Roger Hellman invented Assymetric, or Public Key cryptography, a system whereby a shared public key allows two parties to encrypt communications without having to share their own private key. 
+Until 1976 when Whitfield Diffie and Roger Hellman invented Assymetric, or Public Key cryptography, a system whereby a shared public key allows two parties to encrypt communications without having to share their own private key. 
 [Visual explanation of Public Key Cryptography](https://www.youtube.com/watch?v=YEBfamv-_do&feature=youtu.be&t=161)
 
 
-Cryptography is also used in verifying identity and the integrity of documents.
+Cryptography is also used in verifying identity and the integrity of data. When you create a password on a website, if they employ good security practices, the website doesn't store your password itself, but a cryptographic hash of the password. A hash function takes data of any size and returns a string of fixed length from which it is infeasible to infer the input, but given the same inputs, the hash function will always return the same output, but a small change to the inputs will produce large changes in the hash..
 
-## Do we care?
+## Do we care about security?
 
 There's a frequently cited straw-man argument that goes "But I have nothing to hide..."
 Even if you feel there's nothing to be ashamed of in your behavior online or wherever, you do have things that you want to remain private - your email password, your bank account information. Essentially our online identity which allows us to communicate persistently on the internet. All of us in this room probably store some part of our identity online. 
 
-But it's not just for ourselves that we want to employ secure communications, but to preserve and democratize the sphere of privacy. The more we all employ secure practices, and the more we understand about the systems we're using to communicate, the more difficult it will be to spy on people.
+But it's not just for ourselves that we want to employ secure communications, but to preserve and democratize the sphere of privacy. The more we all employ secure practices, because the internet is so interconnected, the more secure an internet we make for everybody.
+
+A good example is TOR. TOR is an anonymizing network that uses relays and cryptography to conceal the identities behind and the contents of communications. When using the internet through the TOR network, your messages are passed from computer to computer within the network, encrypted at every node until it exits the network from an "exit node" to its destination. None of the nodes along the path know where the message originated or its contents.
+
+![Tor Network Diagram](img/tor-network-diagram.png)
+
+Things that operate over TOR:
+* Hidden services (like Silk Road)
+* OnionShare
+* Encrypted chat
+* Secure Drop (Aaron Swartz)
+
 
 Tim Berners-Lee's recent [projects](https://solid.mit.edu/#home) and [opinions](https://www.theguardian.com/technology/2017/mar/11/tim-berners-lee-web-inventor-save-internet).
