@@ -21,10 +21,10 @@ Data can be a message, metadata (ie who is writing whom when), webpage requests,
 
 ## Questions we might ask
 
-How can we know that a person or 'place' is reliably found at a certain IP address? (SSL Certificates) 
-Do we trust the security practices of the companies who hold our data? (LinkedIn plaintext passwords)
-Do we trust their decision making? 
-What information do we choose to give them?
+How can we know that a person or 'place' is reliably found at a certain IP address? (SSL Certificates)<br> 
+Do we trust the security practices of the companies who hold our data? (LinkedIn plaintext passwords)<br>
+Do we trust their decision making? <br>
+What information do we choose to give them?<br>
 How can we secure our own data? (Disk encryption, encrypted communications)
 
 ## Some solutions
