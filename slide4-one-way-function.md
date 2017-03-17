@@ -5,4 +5,4 @@ Input:
 ![Blender before](img/blender-before.jpg)
 
 Output:
-![Blender after](img/blender-after.jpg)
+![Blender after](img/blender-after.jpeg)
