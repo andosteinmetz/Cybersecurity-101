@@ -116,4 +116,6 @@
   * NSA malware names: POLARSNEEZE, ELIGIBLE BOMBSHELL, FOXACID, BADDECISION, MAGIC SQUIRREL, MAGICBEAN
   * [NSA Google Tips](https://www.wired.com/2013/05/nsa-manual-on-hacking-internet/)
   * [VPN Guide](https://medium.freecodecamp.com/how-to-set-up-a-vpn-in-5-minutes-for-free-and-why-you-urgently-need-one-d5cdba361907)
+  * [Forensic description of major hacks carried out by Alexsey Belan](https://medium.com/@chrismcnab/alexseys-ttps-1204d9050551#.kq10afqxr)
+  * [EFF Border Search Pocket Guide](https://www.eff.org/document/eff-border-search-pocket-guide)
 
