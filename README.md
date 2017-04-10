@@ -22,7 +22,7 @@
   * Farraday Cube
   * War Games and Ronald Regan
   * Charges brought against Phil Zimmerman inventor of PGP
-  
+
 ## CurrentEvents
   * [Wikileaks CIA Spy tools disclosures](https://wikileaks.org/ciav7p1/)
     * Put tape over your webcam
@@ -31,12 +31,12 @@
   * [Spammergate](https://mackeeper.com/blog/post/339-spammergate-the-fall-of-an-empire)
   	* [Slowloris](https://en.wikipedia.org/wiki/Slowloris_(computer_security))
   * Heartbleed
-  * SHA1 Hash Collision 
+  * SHA1 Hash Collision
   * [Dyn IoT DDoS attack](http://www.welivesecurity.com/2016/10/24/10-things-know-october-21-iot-ddos-attacks/)
     * Explain DDoS
     * Discuss security vulnerabilities of "smart devices"
   * AshleyMadison
-  * Cloudbleed 
+  * Cloudbleed
 
 ## Vulnerabilities
   * Viruses, worms and malware
@@ -118,4 +118,4 @@
   * [VPN Guide](https://medium.freecodecamp.com/how-to-set-up-a-vpn-in-5-minutes-for-free-and-why-you-urgently-need-one-d5cdba361907)
   * [Forensic description of major hacks carried out by Alexsey Belan](https://medium.com/@chrismcnab/alexseys-ttps-1204d9050551#.kq10afqxr)
   * [EFF Border Search Pocket Guide](https://www.eff.org/document/eff-border-search-pocket-guide)
-
+  * [Cypherpunk Manifesto](https://w2.eff.org/Privacy/Crypto/Crypto_misc/cypherpunk.manifesto)
