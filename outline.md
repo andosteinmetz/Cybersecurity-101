@@ -23,8 +23,8 @@ Data can be a message, metadata (ie who is writing whom when), webpage requests,
 
 ## Questions we might ask
 
-How can we know that a person or 'place' is reliably found at a certain IP address? (SSL Certificates)<br> 
-Do we trust the security practices of the companies who hold our data? (LinkedIn plaintext passwords)<br>
+How can we know that a person or 'place' is reliably found at a certain IP address? (SSL Certificates)<br>
+Do we trust the security practices of the companies who hold our data? (LinkedIn passwords)<br>
 Do we trust their decision making? <br>
 What information do we choose to give them?<br>
 How can we secure our own data? (Disk encryption, encrypted communications)
@@ -42,7 +42,7 @@ The simplest example:
 
 In a simple caesar cipher, the shared secret is the number of ticks to turn the wheel to offset the alphabet.
 
-Modern cryptographic algorithms are many orders of magnitude more complex and difficult to reverse, but follow the same basic principle. They have to be so difficult to reverse that it would take an extremely powerful computer an infeasible amount of time to do it. That's very requires a lot of complexity!
+Modern cryptographic algorithms are many orders of magnitude more complex and difficult to reverse, but follow the same basic principle. They have to be so difficult to reverse that it would take an extremely powerful computer an infeasible amount of time to do it. That requires a lot of complexity!
 
 So first, we have to trust our encryption algorithm. There are a number of these kinds of algorithms for a variety of specific purposes. (Google SHA-1 Collision).
 
@@ -51,13 +51,13 @@ This leaves the question of how we securely share our secret key to recover the 
 * We could speak it over the phone, if we trust the phone lines.
 * We could write it in an email if we trust our password is secure and we trust our email provider.
 
-Over the internet, there are so many points of connection that it becomes very hard to trust that all of those points are secure, so transmitting a key for private communication creates a catch 22. 
+Over the internet, there are so many points of connection that it becomes very hard to trust that all of those points are secure, so transmitting a key for private communication creates a catch 22.
 
-Encrypted communications could only be as secure as the means of transmitting your secret key. 
+Encrypted communications could only be as secure as the means of transmitting your secret key...
 
 ![Diffie-Hellman](img/diffie-hellman.jpg)
 
-Until 1976 when Whitfield Diffie and Roger Hellman invented Assymetric, or Public Key cryptography, a system whereby a shared public key allows two parties to encrypt communications without having to share their own private key. 
+Until 1976 when Whitfield Diffie and Roger Hellman invented Assymetric, or Public Key cryptography, a system whereby a shared "public" key that can be viewed by anybody allows two parties to encrypt communications without having to share their own private key.
 [Visual explanation of Public Key Cryptography](https://www.youtube.com/watch?v=YEBfamv-_do&feature=youtu.be&t=161)
 
 
@@ -66,15 +66,19 @@ Cryptography is also used in verifying identity and the integrity of data. When 
 ## Do we care about security?
 
 There's a frequently cited straw-man argument that goes "But I have nothing to hide..."
-Even if you feel there's nothing to be ashamed of in your behavior online or wherever, you do have things that you want to remain private - your email password, your bank account information. Essentially our online identity which allows us to communicate persistently on the internet. All of us in this room probably store some part of our identity online. 
+Even if you feel there's nothing to be ashamed of in your behavior online or wherever, you do have things that you want to remain private - your email password, your bank account information. Essentially our online identity which allows us to communicate persistently on the internet. All of us in this room probably store some part of our identity online.
 
 But it's not just for ourselves that we want to employ secure communications, but to preserve and democratize the sphere of privacy. The more we all employ secure practices, because the internet is so interconnected, the more secure an internet we make for everybody.
+
+The [Cypherpunk Manifesto](https://w2.eff.org/Privacy/Crypto/Crypto_misc/cypherpunk.manifesto) makes the argument well.
+
+The inventor of the world wide web, [Tim Berners-Lee](https://www.w3.org/People/Berners-Lee/) seems to agree. His recent [projects](https://solid.mit.edu/#home) and [opinions](https://www.theguardian.com/technology/2017/mar/11/tim-berners-lee-web-inventor-save-internet) seek to address the privacy and ownership of internet user data.
 
 ## What tools can we use to provide greater security?
 
 ###TOR
 
-A good example is TOR. TOR is an anonymizing network that uses relays and cryptography to conceal the identities behind and the contents of communications. When using the internet through the TOR network, your messages are passed from computer to computer within the network, with different parts encrypted at every node until it (potentially) exits the network from an "exit node" to its destination. None of the nodes along the path know where the message originated, its destination, and its contents.
+A good example is TOR. TOR is an anonymizing network that uses relays and cryptography to conceal the identities behind and the contents of communications. When using the internet through the TOR network, your messages are passed from computer to computer within the network, with different parts encrypted at every node until it (potentially) exits the network from an "exit node" to its destination, or in the case of a hidden service, remains within the network. None of the nodes along the path know where the message originated, its destination, and its contents.
 
 The exit nodes have a special position, because they decrypt your message before passing it on to the "public internet." At this point, unless you're operating over a secure connection (https://), your message is unencrypted at this juncture, and could be intercepted by an exit node. They won't know the traffic's origin, but they will know its destination and its contents unless there's another layer of encryption between.
 
@@ -97,11 +101,15 @@ So what is HTTPS? HTTPS is a layer that sits on top of HTTP. It ensures that the
 
 VPN stands for "Virtual Private Network." A VPN is a private network (like your home wifi network or an institution's internal network) that connects to the public internet, so the origins of requests made through VPNs aren't visible to the websites or anybody outside of the private network, instead seeming to originate from the VPN. VPNs are often privately operated for internal use, or paid services, though free options exist, such as [TunnelBear](https://www.tunnelbear.com/).
 
+If you're comfortable with the command line, you can use open source tools to [build](http://readwrite.com/2014/04/10/raspberry-pi-vpn-tutorial-server-secure-web-browsing/#awesm=~oBvYD8BOiTdCQN) [your](https://github.com/jlund/streisand/blob/master/README.md) [own](https://github.com/trailofbits/algo/blob/master/README.md) VPN on a cloud service such as Digital Ocean or AWS.
+
 ### Two Factor Authentication (2FA)
 
 * Something you know: the name of your favorite elementary school teacher, your first pet
 * Something you have: ie a text sent to your phone, an application with a private key on your phone, yubikey
 * Something you are: ie your thumbprint, your retina, voice recognition, other biometric data
+
+Think about the strengths and weaknesses of each of these types of Authentication.
 
 ### Passwords
 
@@ -111,5 +119,3 @@ Choose a secure password. There are differences of opinion over what defines a s
 * Rotate your passwords
 * Use a password manager - [LastPass](https://www.lastpass.com), [KeePass](https://www.keepassx.org/)(free)
 * Make a [diceware](http://world.std.com/~reinhold/diceware.html) [passphrase](https://theintercept.com/2015/03/26/passphrases-can-memorize-attackers-cant-guess/)
-
-Tim Berners-Lee's recent [projects](https://solid.mit.edu/#home) and [opinions](https://www.theguardian.com/technology/2017/mar/11/tim-berners-lee-web-inventor-save-internet).
