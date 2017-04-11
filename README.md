@@ -119,3 +119,5 @@
   * [Forensic description of major hacks carried out by Alexsey Belan](https://medium.com/@chrismcnab/alexseys-ttps-1204d9050551#.kq10afqxr)
   * [EFF Border Search Pocket Guide](https://www.eff.org/document/eff-border-search-pocket-guide)
   * [Cypherpunk Manifesto](https://w2.eff.org/Privacy/Crypto/Crypto_misc/cypherpunk.manifesto)
+  * [What Happens Next Will Amaze You](http://idlewords.com/talks/what_happens_next_will_amaze_you.htm) - on web surveillance.
+  * [Data And Goliath](https://www.schneier.com/books/data_and_goliath/)
