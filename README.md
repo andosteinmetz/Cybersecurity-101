@@ -92,6 +92,7 @@
   * [HaveIBeenPwned](https://www.haveibeenpwned.com)
   * VPNs - [TunnelBear](https://www.tunnelbear.com/)
   * [Yubikey](https://www.yubico.com/start/)
+  * [How to Add a Security Key to Gmail](https://techsolidarity.org/resources/security_key_gmail.htm)
   * [Tails](https://tails.boum.org/)
   * [LittleSnitch](https://www.obdev.at/products/littlesnitch/index.html)
   * [MicroSnitch](https://www.obdev.at/products/microsnitch/index.html)
