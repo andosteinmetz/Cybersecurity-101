@@ -122,3 +122,4 @@
   * [Cypherpunk Manifesto](https://w2.eff.org/Privacy/Crypto/Crypto_misc/cypherpunk.manifesto)
   * [What Happens Next Will Amaze You](http://idlewords.com/talks/what_happens_next_will_amaze_you.htm) - on web surveillance.
   * [Data And Goliath](https://www.schneier.com/books/data_and_goliath/)
+  * [How Apple and Amazon Security Flaws Led to my Epic Hacking](https://www.wired.com/2012/08/apple-amazon-mat-honan-hacking/all/)
