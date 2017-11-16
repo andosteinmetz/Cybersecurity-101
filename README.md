@@ -101,6 +101,7 @@
   * [MalwareBytes](https://www.malwarebytes.com/)
   * [Pastebin](http://pastebin.com/)
   * [HTTPS Everywhere](https://www.eff.org/HTTPS-Everywhere)
+  * [Roll your own VPN in the cloud](http://www.spycasa.com/roll-your-own-vpn-algo-digital-ocean/) with [Algo](https://github.com/trailofbits/algo)
 
 ## Further Info / Deep Dive
   * [https://github.com/drduh/macOS-Security-and-Privacy-Guide](https://github.com/drduh/macOS-Security-and-Privacy-Guide)
